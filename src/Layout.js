@@ -1,4 +1,4 @@
-
+import PropType from "prop-types";
 import { Navbarr} from "./Componentes/Navbarr";
 import { Jum } from "./Componentes/Jum";
 import {Card} from "./Componentes/Card";
@@ -24,26 +24,26 @@ export const Layout =() => {
 
             <div className="row">
 
-            <Jum/>
+            <Jum titulo={"soy erick"} texto={"Estoy utilizando props de react"}/>
 
             </div>
             <div className="row">
             
                 <div className="col-sm-3">
-                <Card/>
+                <Card img={"./logo192.png"} titulo={"hola"} texto={"hola mundo"} boton={"https://en.wikipedia.org/wiki/Bob_Dylan"} goTo={"ver en wiki"} />
 
                 </div>
 
                 <div className="col-sm-3">
-                <Card/>
+                <Card img={"./logo192.png"} titulo={"hola"} texto={"soy erick"} boton={"https://en.wikipedia.org/wiki/Bob_Dylan"} goTo={"ver en amazon"} />
                 </div>
 
                 <div className="col-sm-3">
-                <Card/>
+                <Card img={"./logo192.png"} titulo={"hola"} texto={"Reutilizando un componente"} boton={"https://en.wikipedia.org/wiki/Bob_Dylan"} goTo={"ver en wiki"} />
                 </div>
 
                 <div className="col-sm-3">
-                <Card/>
+                <Card img={"./logo192.png"} titulo={"hola"} texto={"es genial usar react"} boton={"https://en.wikipedia.org/wiki/Bob_Dylan"} goTo={"ver en google"} />
                 </div>
             </div>
 

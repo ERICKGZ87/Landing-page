@@ -7,9 +7,6 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import {Layout} from './Layout';
 import reportWebVitals from './reportWebVitals';
 
-
-
-
 ReactDOM.render(<Layout/>, document.querySelector('#root') );
 
 reportWebVitals();
